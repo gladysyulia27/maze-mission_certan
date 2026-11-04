@@ -1,0 +1,11 @@
+# EASY MAZE (7x7) - Energi: 49
+# Simbol: S=Start, G=Goal, #=Wall, T=Trap, C=Crystal, .=Safe
+ENERGY=49
+S . . . # . .
+. . T . # . .
+. . . . . C .
+# # . # . . .
+. . . # . T .
+. C . . . . .
+. . # . . . G
+

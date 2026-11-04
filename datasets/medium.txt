@@ -1,0 +1,11 @@
+# MEDIUM MAZE (8x8) - Energi: 61
+# Simbol: S=Start, G=Goal, #=Wall, T=Trap, C=Crystal, .=Safe
+ENERGY=61
+S . . # . . . .
+. . . # . T . .
+. T . . . # C .
+. . # . . # . T
+C . # . . . . .
+. . . . T # . .
+. T # . . . C .
+. . . . # . . G

@@ -20,9 +20,7 @@ ATURAN
 import json, random, threading, webbrowser
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
-# =====================================================================
 # 1. LEVEL & GAME ENGINE  (ukuran, kepadatan Trap, jumlah kristal, faktor energi)
-# =====================================================================
 LEVELS = [(7, .15, 2, 1.0), (8, .18, 3, .95), (9, .20, 3, .90),
           (10, .22, 4, .90), (11, .24, 4, .85), (12, .26, 5, .85)]
 S_CRYSTAL, S_GOAL, S_DISARM, S_TRAP, S_BAD_DISARM = 100, 500, 75, -50, -25
@@ -175,9 +173,7 @@ class Game:
                     trap=sorted(self.trap) if self.status == "lose" else [])
 
 
-# =====================================================================
 # 2. TAMPILAN (HTML/CSS/JS) — dilayani server lokal ke browser
-# =====================================================================
 HTML = r"""<!DOCTYPE html>
 <html lang="id">
 <head>

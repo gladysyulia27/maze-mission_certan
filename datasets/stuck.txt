@@ -1,0 +1,11 @@
+# STUCK MAZE (7x7) - Energi: 45
+# Kristal terakhir dan Gerbang Goal terkurung oleh Wall (#) dan Trap (T)
+ENERGY=45
+S . . # . . .
+. . . # . T .
+. C . # . . .
+# . . # # T #
+. . T # T C #
+. # . # # # #
+. . . # T . G
+
