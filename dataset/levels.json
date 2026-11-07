@@ -1,0 +1,2813 @@
+{
+ "meta": {
+  "name": "Maze Mission: Deep Logic — Level Dataset (Open Logic Puzzle)",
+  "version": 2,
+  "mode": "open",
+  "levels": 10,
+  "base_seed": 20261104,
+  "trap_rule": "Level k memiliki 2+k trap (3, 4, 5, ... 12)",
+  "wall_probability": 0.1,
+  "guarantee": "Semua angka petunjuk terlihat sejak awal. Setiap level terbukti solvable oleh solver logika tanpa satu pun tebakan (guesses=0). Semua level cukup aturan R1 (mode mudah).",
+  "dataset_sha256": "5dec5baf0006651650ca2857b23b19f4352b4628a312ea1f9f08afb3bae0957c"
+ },
+ "levels": [
+  {
+   "id": 1,
+   "n": 7,
+   "seed": 20361108,
+   "start": 0,
+   "gate": 48,
+   "key": 25,
+   "crystals": [
+    40,
+    46
+   ],
+   "wall": [
+    6,
+    44
+   ],
+   "trap": [
+    2,
+    22,
+    29
+   ],
+   "attempts": 5,
+   "energy": 25,
+   "proof": {
+    "guesses": 0,
+    "sound": true,
+    "solved": true,
+    "deductions": 5,
+    "rule1": 5,
+    "rule2": 0,
+    "rule3": 0,
+    "max_rule": 1,
+    "plan_cost_full": 14,
+    "plan_cost_min": 12,
+    "steps": [
+     {
+      "i": 1,
+      "rule": 1,
+      "cell": 2,
+      "verdict": "trap",
+      "basis": [
+       1
+      ]
+     },
+     {
+      "i": 2,
+      "rule": 1,
+      "cell": 22,
+      "verdict": "trap",
+      "basis": [
+       16
+      ]
+     },
+     {
+      "i": 3,
+      "rule": 1,
+      "cell": 29,
+      "verdict": "trap",
+      "basis": [
+       23
+      ]
+     },
+     {
+      "i": 4,
+      "rule": 1,
+      "cell": 21,
+      "verdict": "safe",
+      "basis": [
+       14
+      ]
+     },
+     {
+      "i": 5,
+      "rule": 1,
+      "cell": 28,
+      "verdict": "safe",
+      "basis": [
+       21
+      ]
+     }
+    ],
+    "route": [
+     [
+      "m",
+      1
+     ],
+     [
+      "m",
+      8
+     ],
+     [
+      "m",
+      9
+     ],
+     [
+      "m",
+      10
+     ],
+     [
+      "m",
+      11
+     ],
+     [
+      "m",
+      18
+     ],
+     [
+      "m",
+      25
+     ],
+     [
+      "m",
+      26
+     ],
+     [
+      "m",
+      33
+     ],
+     [
+      "m",
+      40
+     ],
+     [
+      "m",
+      39
+     ],
+     [
+      "m",
+      46
+     ],
+     [
+      "m",
+      47
+     ],
+     [
+      "m",
+      48
+     ]
+    ]
+   },
+   "sha256": "fa188260a5bfb00f7d8596adee3b0df7effe0c1773229ce7afd8f858827548f9"
+  },
+  {
+   "id": 2,
+   "n": 7,
+   "seed": 20461121,
+   "start": 0,
+   "gate": 48,
+   "key": 33,
+   "crystals": [
+    3,
+    43
+   ],
+   "wall": [
+    2,
+    13,
+    29,
+    35
+   ],
+   "trap": [
+    15,
+    22,
+    39,
+    41
+   ],
+   "attempts": 18,
+   "energy": 35,
+   "proof": {
+    "guesses": 0,
+    "sound": true,
+    "solved": true,
+    "deductions": 6,
+    "rule1": 6,
+    "rule2": 0,
+    "rule3": 0,
+    "max_rule": 1,
+    "plan_cost_full": 22,
+    "plan_cost_min": 12,
+    "steps": [
+     {
+      "i": 1,
+      "rule": 1,
+      "cell": 15,
+      "verdict": "trap",
+      "basis": [
+       9
+      ]
+     },
+     {
+      "i": 2,
+      "rule": 1,
+      "cell": 22,
+      "verdict": "trap",
+      "basis": [
+       16
+      ]
+     },
+     {
+      "i": 3,
+      "rule": 1,
+      "cell": 39,
+      "verdict": "trap",
+      "basis": [
+       31
+      ]
+     },
+     {
+      "i": 4,
+      "rule": 1,
+      "cell": 41,
+      "verdict": "trap",
+      "basis": [
+       33
+      ]
+     },
+     {
+      "i": 5,
+      "rule": 1,
+      "cell": 14,
+      "verdict": "safe",
+      "basis": [
+       7
+      ]
+     },
+     {
+      "i": 6,
+      "rule": 1,
+      "cell": 21,
+      "verdict": "safe",
+      "basis": [
+       14
+      ]
+     }
+    ],
+    "route": [
+     [
+      "m",
+      1
+     ],
+     [
+      "m",
+      8
+     ],
+     [
+      "m",
+      9
+     ],
+     [
+      "m",
+      10
+     ],
+     [
+      "m",
+      3
+     ],
+     [
+      "m",
+      4
+     ],
+     [
+      "m",
+      5
+     ],
+     [
+      "m",
+      12
+     ],
+     [
+      "m",
+      19
+     ],
+     [
+      "m",
+      26
+     ],
+     [
+      "m",
+      33
+     ],
+     [
+      "m",
+      32
+     ],
+     [
+      "m",
+      31
+     ],
+     [
+      "m",
+      30
+     ],
+     [
+      "m",
+      37
+     ],
+     [
+      "m",
+      36
+     ],
+     [
+      "m",
+      43
+     ],
+     [
+      "m",
+      44
+     ],
+     [
+      "m",
+      45
+     ],
+     [
+      "m",
+      46
+     ],
+     [
+      "m",
+      47
+     ],
+     [
+      "m",
+      48
+     ]
+    ]
+   },
+   "sha256": "dbd21644d7180fe6b3b434f0d36899cd13d36ea7692016fe8a6aef4d234da9b3"
+  },
+  {
+   "id": 3,
+   "n": 8,
+   "seed": 20561106,
+   "start": 0,
+   "gate": 63,
+   "key": 54,
+   "crystals": [
+    30,
+    35,
+    55
+   ],
+   "wall": [
+    12,
+    13,
+    18,
+    62
+   ],
+   "trap": [
+    23,
+    24,
+    46,
+    53,
+    59
+   ],
+   "attempts": 3,
+   "energy": 29,
+   "proof": {
+    "guesses": 0,
+    "sound": true,
+    "solved": true,
+    "deductions": 8,
+    "rule1": 8,
+    "rule2": 0,
+    "rule3": 0,
+    "max_rule": 1,
+    "plan_cost_full": 17,
+    "plan_cost_min": 15,
+    "steps": [
+     {
+      "i": 1,
+      "rule": 1,
+      "cell": 23,
+      "verdict": "trap",
+      "basis": [
+       14
+      ]
+     },
+     {
+      "i": 2,
+      "rule": 1,
+      "cell": 24,
+      "verdict": "trap",
+      "basis": [
+       16
+      ]
+     },
+     {
+      "i": 3,
+      "rule": 1,
+      "cell": 46,
+      "verdict": "trap",
+      "basis": [
+       37
+      ]
+     },
+     {
+      "i": 4,
+      "rule": 1,
+      "cell": 53,
+      "verdict": "trap",
+      "basis": [
+       44
+      ]
+     },
+     {
+      "i": 5,
+      "rule": 1,
+      "cell": 59,
+      "verdict": "trap",
+      "basis": [
+       50
+      ]
+     },
+     {
+      "i": 6,
+      "rule": 1,
+      "cell": 39,
+      "verdict": "safe",
+      "basis": [
+       30
+      ]
+     },
+     {
+      "i": 7,
+      "rule": 1,
+      "cell": 47,
+      "verdict": "safe",
+      "basis": [
+       38
+      ]
+     },
+     {
+      "i": 8,
+      "rule": 1,
+      "cell": 61,
+      "verdict": "safe",
+      "basis": [
+       52
+      ]
+     }
+    ],
+    "route": [
+     [
+      "m",
+      1
+     ],
+     [
+      "m",
+      2
+     ],
+     [
+      "m",
+      3
+     ],
+     [
+      "m",
+      11
+     ],
+     [
+      "m",
+      19
+     ],
+     [
+      "m",
+      27
+     ],
+     [
+      "m",
+      35
+     ],
+     [
+      "m",
+      27
+     ],
+     [
+      "m",
+      28
+     ],
+     [
+      "m",
+      29
+     ],
+     [
+      "m",
+      30
+     ],
+     [
+      "m",
+      38
+     ],
+     [
+      "d",
+      46
+     ],
+     [
+      "m",
+      46
+     ],
+     [
+      "m",
+      54
+     ],
+     [
+      "m",
+      55
+     ],
+     [
+      "m",
+      63
+     ]
+    ]
+   },
+   "sha256": "5ff94b8c90fc7275e097659dcfa8b39333ff7980da15fa72f16d51b5ddc58a0a"
+  },
+  {
+   "id": 4,
+   "n": 8,
+   "seed": 20661106,
+   "start": 0,
+   "gate": 63,
+   "key": 30,
+   "crystals": [
+    15,
+    17,
+    36
+   ],
+   "wall": [
+    12,
+    19,
+    35,
+    48,
+    51,
+    59,
+    61,
+    62
+   ],
+   "trap": [
+    4,
+    31,
+    41,
+    42,
+    46,
+    56
+   ],
+   "attempts": 3,
+   "energy": 34,
+   "proof": {
+    "guesses": 0,
+    "sound": true,
+    "solved": true,
+    "deductions": 8,
+    "rule1": 8,
+    "rule2": 0,
+    "rule3": 0,
+    "max_rule": 1,
+    "plan_cost_full": 21,
+    "plan_cost_min": 14,
+    "steps": [
+     {
+      "i": 1,
+      "rule": 1,
+      "cell": 4,
+      "verdict": "trap",
+      "basis": [
+       3
+      ]
+     },
+     {
+      "i": 2,
+      "rule": 1,
+      "cell": 31,
+      "verdict": "trap",
+      "basis": [
+       22
+      ]
+     },
+     {
+      "i": 3,
+      "rule": 1,
+      "cell": 41,
+      "verdict": "trap",
+      "basis": [
+       34
+      ]
+     },
+     {
+      "i": 4,
+      "rule": 1,
+      "cell": 42,
+      "verdict": "trap",
+      "basis": [
+       34
+      ]
+     },
+     {
+      "i": 5,
+      "rule": 1,
+      "cell": 46,
+      "verdict": "trap",
+      "basis": [
+       37
+      ]
+     },
+     {
+      "i": 6,
+      "rule": 1,
+      "cell": 40,
+      "verdict": "safe",
+      "basis": [
+       32
+      ]
+     },
+     {
+      "i": 7,
+      "rule": 1,
+      "cell": 58,
+      "verdict": "safe",
+      "basis": [
+       50
+      ]
+     },
+     {
+      "i": 8,
+      "rule": 1,
+      "cell": 56,
+      "verdict": "trap",
+      "basis": [
+       49
+      ]
+     }
+    ],
+    "route": [
+     [
+      "m",
+      1
+     ],
+     [
+      "m",
+      9
+     ],
+     [
+      "m",
+      17
+     ],
+     [
+      "m",
+      18
+     ],
+     [
+      "m",
+      26
+     ],
+     [
+      "m",
+      27
+     ],
+     [
+      "m",
+      28
+     ],
+     [
+      "m",
+      36
+     ],
+     [
+      "m",
+      28
+     ],
+     [
+      "m",
+      29
+     ],
+     [
+      "m",
+      30
+     ],
+     [
+      "m",
+      22
+     ],
+     [
+      "m",
+      14
+     ],
+     [
+      "m",
+      15
+     ],
+     [
+      "m",
+      23
+     ],
+     [
+      "d",
+      31
+     ],
+     [
+      "m",
+      31
+     ],
+     [
+      "m",
+      39
+     ],
+     [
+      "m",
+      47
+     ],
+     [
+      "m",
+      55
+     ],
+     [
+      "m",
+      63
+     ]
+    ]
+   },
+   "sha256": "87cab2293b431af09d0fece37a46d1cf41a0c693452300892cb5a5abbfe8776c"
+  },
+  {
+   "id": 5,
+   "n": 9,
+   "seed": 20761107,
+   "start": 0,
+   "gate": 80,
+   "key": 17,
+   "crystals": [
+    4,
+    28,
+    42,
+    63
+   ],
+   "wall": [
+    11,
+    13,
+    24,
+    29,
+    52,
+    69,
+    70
+   ],
+   "trap": [
+    6,
+    20,
+    21,
+    41,
+    49,
+    56,
+    77
+   ],
+   "attempts": 4,
+   "energy": 53,
+   "proof": {
+    "guesses": 0,
+    "sound": true,
+    "solved": true,
+    "deductions": 10,
+    "rule1": 10,
+    "rule2": 0,
+    "rule3": 0,
+    "max_rule": 1,
+    "plan_cost_full": 36,
+    "plan_cost_min": 16,
+    "steps": [
+     {
+      "i": 1,
+      "rule": 1,
+      "cell": 6,
+      "verdict": "trap",
+      "basis": [
+       5
+      ]
+     },
+     {
+      "i": 2,
+      "rule": 1,
+      "cell": 20,
+      "verdict": "trap",
+      "basis": [
+       10
+      ]
+     },
+     {
+      "i": 3,
+      "rule": 1,
+      "cell": 21,
+      "verdict": "trap",
+      "basis": [
+       12
+      ]
+     },
+     {
+      "i": 4,
+      "rule": 1,
+      "cell": 41,
+      "verdict": "trap",
+      "basis": [
+       40
+      ]
+     },
+     {
+      "i": 5,
+      "rule": 1,
+      "cell": 49,
+      "verdict": "trap",
+      "basis": [
+       40
+      ]
+     },
+     {
+      "i": 6,
+      "rule": 1,
+      "cell": 56,
+      "verdict": "trap",
+      "basis": [
+       46
+      ]
+     },
+     {
+      "i": 7,
+      "rule": 1,
+      "cell": 77,
+      "verdict": "trap",
+      "basis": [
+       76
+      ]
+     },
+     {
+      "i": 8,
+      "rule": 1,
+      "cell": 23,
+      "verdict": "safe",
+      "basis": [
+       14
+      ]
+     },
+     {
+      "i": 9,
+      "rule": 1,
+      "cell": 40,
+      "verdict": "safe",
+      "basis": [
+       30
+      ]
+     },
+     {
+      "i": 10,
+      "rule": 1,
+      "cell": 58,
+      "verdict": "safe",
+      "basis": [
+       48
+      ]
+     }
+    ],
+    "route": [
+     [
+      "m",
+      1
+     ],
+     [
+      "m",
+      2
+     ],
+     [
+      "m",
+      3
+     ],
+     [
+      "m",
+      4
+     ],
+     [
+      "m",
+      5
+     ],
+     [
+      "m",
+      14
+     ],
+     [
+      "m",
+      15
+     ],
+     [
+      "m",
+      16
+     ],
+     [
+      "m",
+      17
+     ],
+     [
+      "m",
+      16
+     ],
+     [
+      "m",
+      25
+     ],
+     [
+      "m",
+      34
+     ],
+     [
+      "m",
+      33
+     ],
+     [
+      "m",
+      42
+     ],
+     [
+      "d",
+      41
+     ],
+     [
+      "m",
+      41
+     ],
+     [
+      "m",
+      40
+     ],
+     [
+      "m",
+      39
+     ],
+     [
+      "m",
+      38
+     ],
+     [
+      "m",
+      37
+     ],
+     [
+      "m",
+      28
+     ],
+     [
+      "m",
+      27
+     ],
+     [
+      "m",
+      36
+     ],
+     [
+      "m",
+      45
+     ],
+     [
+      "m",
+      54
+     ],
+     [
+      "m",
+      63
+     ],
+     [
+      "m",
+      64
+     ],
+     [
+      "m",
+      65
+     ],
+     [
+      "m",
+      66
+     ],
+     [
+      "m",
+      67
+     ],
+     [
+      "m",
+      68
+     ],
+     [
+      "d",
+      77
+     ],
+     [
+      "m",
+      77
+     ],
+     [
+      "m",
+      78
+     ],
+     [
+      "m",
+      79
+     ],
+     [
+      "m",
+      80
+     ]
+    ]
+   },
+   "sha256": "5adacd234991e32a046c75cd073b3b9019de0cc350baff300fc81e03820fbe34"
+  },
+  {
+   "id": 6,
+   "n": 9,
+   "seed": 20861104,
+   "start": 0,
+   "gate": 80,
+   "key": 53,
+   "crystals": [
+    12,
+    28,
+    43,
+    54
+   ],
+   "wall": [
+    7,
+    13,
+    26,
+    45
+   ],
+   "trap": [
+    14,
+    33,
+    35,
+    38,
+    48,
+    55,
+    69,
+    77
+   ],
+   "attempts": 1,
+   "energy": 44,
+   "proof": {
+    "guesses": 0,
+    "sound": true,
+    "solved": true,
+    "deductions": 10,
+    "rule1": 10,
+    "rule2": 0,
+    "rule3": 0,
+    "max_rule": 1,
+    "plan_cost_full": 29,
+    "plan_cost_min": 16,
+    "steps": [
+     {
+      "i": 1,
+      "rule": 1,
+      "cell": 14,
+      "verdict": "trap",
+      "basis": [
+       4
+      ]
+     },
+     {
+      "i": 2,
+      "rule": 1,
+      "cell": 33,
+      "verdict": "trap",
+      "basis": [
+       23
+      ]
+     },
+     {
+      "i": 3,
+      "rule": 1,
+      "cell": 35,
+      "verdict": "trap",
+      "basis": [
+       25
+      ]
+     },
+     {
+      "i": 4,
+      "rule": 1,
+      "cell": 38,
+      "verdict": "trap",
+      "basis": [
+       28
+      ]
+     },
+     {
+      "i": 5,
+      "rule": 1,
+      "cell": 48,
+      "verdict": "trap",
+      "basis": [
+       38
+      ]
+     },
+     {
+      "i": 6,
+      "rule": 1,
+      "cell": 55,
+      "verdict": "trap",
+      "basis": [
+       46
+      ]
+     },
+     {
+      "i": 7,
+      "rule": 1,
+      "cell": 69,
+      "verdict": "trap",
+      "basis": [
+       61
+      ]
+     },
+     {
+      "i": 8,
+      "rule": 1,
+      "cell": 68,
+      "verdict": "safe",
+      "basis": [
+       58
+      ]
+     },
+     {
+      "i": 9,
+      "rule": 1,
+      "cell": 78,
+      "verdict": "safe",
+      "basis": [
+       70
+      ]
+     },
+     {
+      "i": 10,
+      "rule": 1,
+      "cell": 77,
+      "verdict": "trap",
+      "basis": [
+       67
+      ]
+     }
+    ],
+    "route": [
+     [
+      "m",
+      1
+     ],
+     [
+      "m",
+      2
+     ],
+     [
+      "m",
+      3
+     ],
+     [
+      "m",
+      12
+     ],
+     [
+      "m",
+      11
+     ],
+     [
+      "m",
+      10
+     ],
+     [
+      "m",
+      19
+     ],
+     [
+      "m",
+      28
+     ],
+     [
+      "m",
+      37
+     ],
+     [
+      "m",
+      46
+     ],
+     [
+      "d",
+      55
+     ],
+     [
+      "m",
+      55
+     ],
+     [
+      "m",
+      54
+     ],
+     [
+      "m",
+      55
+     ],
+     [
+      "m",
+      56
+     ],
+     [
+      "m",
+      57
+     ],
+     [
+      "m",
+      58
+     ],
+     [
+      "m",
+      49
+     ],
+     [
+      "m",
+      50
+     ],
+     [
+      "m",
+      51
+     ],
+     [
+      "m",
+      52
+     ],
+     [
+      "m",
+      53
+     ],
+     [
+      "m",
+      44
+     ],
+     [
+      "m",
+      43
+     ],
+     [
+      "m",
+      44
+     ],
+     [
+      "m",
+      53
+     ],
+     [
+      "m",
+      62
+     ],
+     [
+      "m",
+      71
+     ],
+     [
+      "m",
+      80
+     ]
+    ]
+   },
+   "sha256": "a346fc1d20a61f7227781699b237f36b0ba0e5dc38c16b45461cb7d4d2b48eaa"
+  },
+  {
+   "id": 7,
+   "n": 10,
+   "seed": 20961104,
+   "start": 0,
+   "gate": 99,
+   "key": 58,
+   "crystals": [
+    17,
+    35,
+    48,
+    71,
+    90
+   ],
+   "wall": [
+    5,
+    8,
+    16,
+    43,
+    55,
+    61,
+    67,
+    89,
+    91
+   ],
+   "trap": [
+    4,
+    6,
+    7,
+    18,
+    62,
+    70,
+    80,
+    92,
+    95
+   ],
+   "attempts": 1,
+   "energy": 65,
+   "proof": {
+    "guesses": 0,
+    "sound": true,
+    "solved": true,
+    "deductions": 11,
+    "rule1": 11,
+    "rule2": 0,
+    "rule3": 0,
+    "max_rule": 1,
+    "plan_cost_full": 45,
+    "plan_cost_min": 18,
+    "steps": [
+     {
+      "i": 1,
+      "rule": 1,
+      "cell": 4,
+      "verdict": "trap",
+      "basis": [
+       3
+      ]
+     },
+     {
+      "i": 2,
+      "rule": 1,
+      "cell": 7,
+      "verdict": "trap",
+      "basis": [
+       6
+      ]
+     },
+     {
+      "i": 3,
+      "rule": 1,
+      "cell": 18,
+      "verdict": "trap",
+      "basis": [
+       7
+      ]
+     },
+     {
+      "i": 4,
+      "rule": 1,
+      "cell": 6,
+      "verdict": "trap",
+      "basis": [
+       7
+      ]
+     },
+     {
+      "i": 5,
+      "rule": 1,
+      "cell": 62,
+      "verdict": "trap",
+      "basis": [
+       51
+      ]
+     },
+     {
+      "i": 6,
+      "rule": 1,
+      "cell": 70,
+      "verdict": "trap",
+      "basis": [
+       60
+      ]
+     },
+     {
+      "i": 7,
+      "rule": 1,
+      "cell": 80,
+      "verdict": "trap",
+      "basis": [
+       70
+      ]
+     },
+     {
+      "i": 8,
+      "rule": 1,
+      "cell": 92,
+      "verdict": "trap",
+      "basis": [
+       81
+      ]
+     },
+     {
+      "i": 9,
+      "rule": 1,
+      "cell": 95,
+      "verdict": "trap",
+      "basis": [
+       84
+      ]
+     },
+     {
+      "i": 10,
+      "rule": 1,
+      "cell": 19,
+      "verdict": "safe",
+      "basis": [
+       9
+      ]
+     },
+     {
+      "i": 11,
+      "rule": 1,
+      "cell": 9,
+      "verdict": "safe",
+      "basis": [
+       18
+      ]
+     }
+    ],
+    "route": [
+     [
+      "m",
+      1
+     ],
+     [
+      "m",
+      2
+     ],
+     [
+      "m",
+      3
+     ],
+     [
+      "m",
+      13
+     ],
+     [
+      "m",
+      14
+     ],
+     [
+      "m",
+      15
+     ],
+     [
+      "m",
+      25
+     ],
+     [
+      "m",
+      35
+     ],
+     [
+      "m",
+      36
+     ],
+     [
+      "m",
+      37
+     ],
+     [
+      "m",
+      38
+     ],
+     [
+      "m",
+      48
+     ],
+     [
+      "m",
+      58
+     ],
+     [
+      "m",
+      48
+     ],
+     [
+      "m",
+      38
+     ],
+     [
+      "m",
+      28
+     ],
+     [
+      "m",
+      27
+     ],
+     [
+      "m",
+      17
+     ],
+     [
+      "m",
+      27
+     ],
+     [
+      "m",
+      26
+     ],
+     [
+      "m",
+      25
+     ],
+     [
+      "m",
+      24
+     ],
+     [
+      "m",
+      34
+     ],
+     [
+      "m",
+      44
+     ],
+     [
+      "m",
+      54
+     ],
+     [
+      "m",
+      53
+     ],
+     [
+      "m",
+      63
+     ],
+     [
+      "m",
+      73
+     ],
+     [
+      "m",
+      72
+     ],
+     [
+      "m",
+      71
+     ],
+     [
+      "m",
+      81
+     ],
+     [
+      "d",
+      80
+     ],
+     [
+      "m",
+      80
+     ],
+     [
+      "m",
+      90
+     ],
+     [
+      "m",
+      80
+     ],
+     [
+      "m",
+      81
+     ],
+     [
+      "m",
+      82
+     ],
+     [
+      "m",
+      83
+     ],
+     [
+      "m",
+      84
+     ],
+     [
+      "m",
+      85
+     ],
+     [
+      "m",
+      86
+     ],
+     [
+      "m",
+      87
+     ],
+     [
+      "m",
+      88
+     ],
+     [
+      "m",
+      98
+     ],
+     [
+      "m",
+      99
+     ]
+    ]
+   },
+   "sha256": "30702b7f369949962fc06aed06d1fa38589da84c32f8f002bc2cd36519b29e5b"
+  },
+  {
+   "id": 8,
+   "n": 10,
+   "seed": 21061104,
+   "start": 0,
+   "gate": 99,
+   "key": 82,
+   "crystals": [
+    6,
+    31,
+    39,
+    44,
+    55
+   ],
+   "wall": [
+    5,
+    17,
+    19,
+    26,
+    89,
+    93
+   ],
+   "trap": [
+    47,
+    49,
+    57,
+    58,
+    59,
+    64,
+    76,
+    78,
+    88,
+    92
+   ],
+   "attempts": 1,
+   "energy": 65,
+   "proof": {
+    "guesses": 0,
+    "sound": true,
+    "solved": true,
+    "deductions": 15,
+    "rule1": 15,
+    "rule2": 0,
+    "rule3": 0,
+    "max_rule": 1,
+    "plan_cost_full": 45,
+    "plan_cost_min": 18,
+    "steps": [
+     {
+      "i": 1,
+      "rule": 1,
+      "cell": 47,
+      "verdict": "trap",
+      "basis": [
+       36
+      ]
+     },
+     {
+      "i": 2,
+      "rule": 1,
+      "cell": 57,
+      "verdict": "trap",
+      "basis": [
+       46
+      ]
+     },
+     {
+      "i": 3,
+      "rule": 1,
+      "cell": 49,
+      "verdict": "trap",
+      "basis": [
+       48
+      ]
+     },
+     {
+      "i": 4,
+      "rule": 1,
+      "cell": 58,
+      "verdict": "trap",
+      "basis": [
+       48
+      ]
+     },
+     {
+      "i": 5,
+      "rule": 1,
+      "cell": 59,
+      "verdict": "trap",
+      "basis": [
+       48
+      ]
+     },
+     {
+      "i": 6,
+      "rule": 1,
+      "cell": 64,
+      "verdict": "trap",
+      "basis": [
+       53
+      ]
+     },
+     {
+      "i": 7,
+      "rule": 1,
+      "cell": 76,
+      "verdict": "trap",
+      "basis": [
+       65
+      ]
+     },
+     {
+      "i": 8,
+      "rule": 1,
+      "cell": 92,
+      "verdict": "trap",
+      "basis": [
+       81
+      ]
+     },
+     {
+      "i": 9,
+      "rule": 1,
+      "cell": 88,
+      "verdict": "trap",
+      "basis": [
+       98
+      ]
+     },
+     {
+      "i": 10,
+      "rule": 1,
+      "cell": 48,
+      "verdict": "safe",
+      "basis": [
+       37
+      ]
+     },
+     {
+      "i": 11,
+      "rule": 1,
+      "cell": 68,
+      "verdict": "safe",
+      "basis": [
+       57
+      ]
+     },
+     {
+      "i": 12,
+      "rule": 1,
+      "cell": 69,
+      "verdict": "safe",
+      "basis": [
+       58
+      ]
+     },
+     {
+      "i": 13,
+      "rule": 1,
+      "cell": 79,
+      "verdict": "safe",
+      "basis": [
+       78
+      ]
+     },
+     {
+      "i": 14,
+      "rule": 1,
+      "cell": 98,
+      "verdict": "safe",
+      "basis": [
+       97
+      ]
+     },
+     {
+      "i": 15,
+      "rule": 1,
+      "cell": 78,
+      "verdict": "trap",
+      "basis": [
+       67
+      ]
+     }
+    ],
+    "route": [
+     [
+      "m",
+      1
+     ],
+     [
+      "m",
+      11
+     ],
+     [
+      "m",
+      21
+     ],
+     [
+      "m",
+      31
+     ],
+     [
+      "m",
+      32
+     ],
+     [
+      "m",
+      33
+     ],
+     [
+      "m",
+      34
+     ],
+     [
+      "m",
+      44
+     ],
+     [
+      "m",
+      45
+     ],
+     [
+      "m",
+      55
+     ],
+     [
+      "m",
+      54
+     ],
+     [
+      "m",
+      53
+     ],
+     [
+      "m",
+      52
+     ],
+     [
+      "m",
+      62
+     ],
+     [
+      "m",
+      72
+     ],
+     [
+      "m",
+      82
+     ],
+     [
+      "m",
+      72
+     ],
+     [
+      "m",
+      62
+     ],
+     [
+      "m",
+      52
+     ],
+     [
+      "m",
+      42
+     ],
+     [
+      "m",
+      32
+     ],
+     [
+      "m",
+      22
+     ],
+     [
+      "m",
+      12
+     ],
+     [
+      "m",
+      13
+     ],
+     [
+      "m",
+      14
+     ],
+     [
+      "m",
+      15
+     ],
+     [
+      "m",
+      16
+     ],
+     [
+      "m",
+      6
+     ],
+     [
+      "m",
+      7
+     ],
+     [
+      "m",
+      8
+     ],
+     [
+      "m",
+      18
+     ],
+     [
+      "m",
+      28
+     ],
+     [
+      "m",
+      29
+     ],
+     [
+      "m",
+      39
+     ],
+     [
+      "m",
+      38
+     ],
+     [
+      "m",
+      48
+     ],
+     [
+      "d",
+      58
+     ],
+     [
+      "m",
+      58
+     ],
+     [
+      "m",
+      68
+     ],
+     [
+      "d",
+      78
+     ],
+     [
+      "m",
+      78
+     ],
+     [
+      "d",
+      88
+     ],
+     [
+      "m",
+      88
+     ],
+     [
+      "m",
+      98
+     ],
+     [
+      "m",
+      99
+     ]
+    ]
+   },
+   "sha256": "9934581226915b9cce3255866e2c493b952c09a2c96bbc03f575b5b49abf03a9"
+  },
+  {
+   "id": 9,
+   "n": 11,
+   "seed": 21161105,
+   "start": 0,
+   "gate": 120,
+   "key": 103,
+   "crystals": [
+    5,
+    26,
+    51,
+    56,
+    65,
+    78
+   ],
+   "wall": [
+    3,
+    16,
+    20,
+    24,
+    31,
+    34,
+    37,
+    40,
+    42,
+    66,
+    72,
+    73,
+    80,
+    100,
+    108,
+    116,
+    117,
+    118
+   ],
+   "trap": [
+    4,
+    48,
+    59,
+    64,
+    88,
+    90,
+    91,
+    99,
+    105,
+    111,
+    114
+   ],
+   "attempts": 2,
+   "energy": 77,
+   "proof": {
+    "guesses": 0,
+    "sound": true,
+    "solved": true,
+    "deductions": 15,
+    "rule1": 15,
+    "rule2": 0,
+    "rule3": 0,
+    "max_rule": 1,
+    "plan_cost_full": 54,
+    "plan_cost_min": 22,
+    "steps": [
+     {
+      "i": 1,
+      "rule": 1,
+      "cell": 4,
+      "verdict": "trap",
+      "basis": [
+       5
+      ]
+     },
+     {
+      "i": 2,
+      "rule": 1,
+      "cell": 48,
+      "verdict": "trap",
+      "basis": [
+       36
+      ]
+     },
+     {
+      "i": 3,
+      "rule": 1,
+      "cell": 59,
+      "verdict": "trap",
+      "basis": [
+       47
+      ]
+     },
+     {
+      "i": 4,
+      "rule": 1,
+      "cell": 64,
+      "verdict": "trap",
+      "basis": [
+       52
+      ]
+     },
+     {
+      "i": 5,
+      "rule": 1,
+      "cell": 91,
+      "verdict": "trap",
+      "basis": [
+       81
+      ]
+     },
+     {
+      "i": 6,
+      "rule": 1,
+      "cell": 105,
+      "verdict": "trap",
+      "basis": [
+       93
+      ]
+     },
+     {
+      "i": 7,
+      "rule": 1,
+      "cell": 114,
+      "verdict": "trap",
+      "basis": [
+       103
+      ]
+     },
+     {
+      "i": 8,
+      "rule": 1,
+      "cell": 99,
+      "verdict": "trap",
+      "basis": [
+       110
+      ]
+     },
+     {
+      "i": 9,
+      "rule": 1,
+      "cell": 111,
+      "verdict": "trap",
+      "basis": [
+       110
+      ]
+     },
+     {
+      "i": 10,
+      "rule": 1,
+      "cell": 89,
+      "verdict": "safe",
+      "basis": [
+       88
+      ]
+     },
+     {
+      "i": 11,
+      "rule": 1,
+      "cell": 101,
+      "verdict": "safe",
+      "basis": [
+       90
+      ]
+     },
+     {
+      "i": 12,
+      "rule": 1,
+      "cell": 112,
+      "verdict": "safe",
+      "basis": [
+       111
+      ]
+     },
+     {
+      "i": 13,
+      "rule": 1,
+      "cell": 110,
+      "verdict": "safe",
+      "basis": [
+       111
+      ]
+     },
+     {
+      "i": 14,
+      "rule": 1,
+      "cell": 88,
+      "verdict": "trap",
+      "basis": [
+       77
+      ]
+     },
+     {
+      "i": 15,
+      "rule": 1,
+      "cell": 90,
+      "verdict": "trap",
+      "basis": [
+       78
+      ]
+     }
+    ],
+    "route": [
+     [
+      "m",
+      11
+     ],
+     [
+      "m",
+      22
+     ],
+     [
+      "m",
+      33
+     ],
+     [
+      "m",
+      44
+     ],
+     [
+      "m",
+      45
+     ],
+     [
+      "m",
+      56
+     ],
+     [
+      "m",
+      67
+     ],
+     [
+      "m",
+      78
+     ],
+     [
+      "m",
+      79
+     ],
+     [
+      "d",
+      90
+     ],
+     [
+      "m",
+      90
+     ],
+     [
+      "m",
+      101
+     ],
+     [
+      "m",
+      102
+     ],
+     [
+      "m",
+      103
+     ],
+     [
+      "m",
+      92
+     ],
+     [
+      "m",
+      81
+     ],
+     [
+      "m",
+      70
+     ],
+     [
+      "m",
+      71
+     ],
+     [
+      "m",
+      60
+     ],
+     [
+      "m",
+      49
+     ],
+     [
+      "m",
+      50
+     ],
+     [
+      "m",
+      51
+     ],
+     [
+      "m",
+      52
+     ],
+     [
+      "m",
+      53
+     ],
+     [
+      "m",
+      54
+     ],
+     [
+      "m",
+      65
+     ],
+     [
+      "m",
+      54
+     ],
+     [
+      "m",
+      53
+     ],
+     [
+      "m",
+      52
+     ],
+     [
+      "m",
+      41
+     ],
+     [
+      "m",
+      30
+     ],
+     [
+      "m",
+      29
+     ],
+     [
+      "m",
+      28
+     ],
+     [
+      "m",
+      27
+     ],
+     [
+      "m",
+      26
+     ],
+     [
+      "m",
+      15
+     ],
+     [
+      "d",
+      4
+     ],
+     [
+      "m",
+      4
+     ],
+     [
+      "m",
+      5
+     ],
+     [
+      "m",
+      6
+     ],
+     [
+      "m",
+      7
+     ],
+     [
+      "m",
+      8
+     ],
+     [
+      "m",
+      9
+     ],
+     [
+      "m",
+      10
+     ],
+     [
+      "m",
+      21
+     ],
+     [
+      "m",
+      32
+     ],
+     [
+      "m",
+      43
+     ],
+     [
+      "m",
+      54
+     ],
+     [
+      "m",
+      65
+     ],
+     [
+      "m",
+      76
+     ],
+     [
+      "m",
+      87
+     ],
+     [
+      "m",
+      98
+     ],
+     [
+      "m",
+      109
+     ],
+     [
+      "m",
+      120
+     ]
+    ]
+   },
+   "sha256": "25fa8c4aca98f64d2c43d78f30d37886f89bb9c0b43857b83564787d0518ed33"
+  },
+  {
+   "id": 10,
+   "n": 11,
+   "seed": 21261104,
+   "start": 0,
+   "gate": 120,
+   "key": 115,
+   "crystals": [
+    35,
+    38,
+    63,
+    90,
+    95,
+    102
+   ],
+   "wall": [
+    13,
+    24,
+    57,
+    64,
+    66,
+    71,
+    75,
+    93,
+    96,
+    108,
+    112,
+    114
+   ],
+   "trap": [
+    7,
+    8,
+    20,
+    28,
+    29,
+    30,
+    31,
+    34,
+    45,
+    61,
+    68,
+    69
+   ],
+   "attempts": 1,
+   "energy": 55,
+   "proof": {
+    "guesses": 0,
+    "sound": true,
+    "solved": true,
+    "deductions": 23,
+    "rule1": 23,
+    "rule2": 0,
+    "rule3": 0,
+    "max_rule": 1,
+    "plan_cost_full": 37,
+    "plan_cost_min": 20,
+    "steps": [
+     {
+      "i": 1,
+      "rule": 1,
+      "cell": 28,
+      "verdict": "trap",
+      "basis": [
+       16
+      ]
+     },
+     {
+      "i": 2,
+      "rule": 1,
+      "cell": 34,
+      "verdict": "trap",
+      "basis": [
+       35
+      ]
+     },
+     {
+      "i": 3,
+      "rule": 1,
+      "cell": 45,
+      "verdict": "trap",
+      "basis": [
+       35
+      ]
+     },
+     {
+      "i": 4,
+      "rule": 1,
+      "cell": 29,
+      "verdict": "trap",
+      "basis": [
+       39
+      ]
+     },
+     {
+      "i": 5,
+      "rule": 1,
+      "cell": 30,
+      "verdict": "trap",
+      "basis": [
+       41
+      ]
+     },
+     {
+      "i": 6,
+      "rule": 1,
+      "cell": 31,
+      "verdict": "trap",
+      "basis": [
+       41
+      ]
+     },
+     {
+      "i": 7,
+      "rule": 1,
+      "cell": 68,
+      "verdict": "trap",
+      "basis": [
+       58
+      ]
+     },
+     {
+      "i": 8,
+      "rule": 1,
+      "cell": 69,
+      "verdict": "trap",
+      "basis": [
+       58
+      ]
+     },
+     {
+      "i": 9,
+      "rule": 1,
+      "cell": 61,
+      "verdict": "trap",
+      "basis": [
+       60
+      ]
+     },
+     {
+      "i": 10,
+      "rule": 1,
+      "cell": 33,
+      "verdict": "safe",
+      "basis": [
+       22
+      ]
+     },
+     {
+      "i": 11,
+      "rule": 1,
+      "cell": 39,
+      "verdict": "safe",
+      "basis": [
+       27
+      ]
+     },
+     {
+      "i": 12,
+      "rule": 1,
+      "cell": 18,
+      "verdict": "safe",
+      "basis": [
+       28
+      ]
+     },
+     {
+      "i": 13,
+      "rule": 1,
+      "cell": 19,
+      "verdict": "safe",
+      "basis": [
+       29
+      ]
+     },
+     {
+      "i": 14,
+      "rule": 1,
+      "cell": 44,
+      "verdict": "safe",
+      "basis": [
+       33
+      ]
+     },
+     {
+      "i": 15,
+      "rule": 1,
+      "cell": 32,
+      "verdict": "safe",
+      "basis": [
+       42
+      ]
+     },
+     {
+      "i": 16,
+      "rule": 1,
+      "cell": 56,
+      "verdict": "safe",
+      "basis": [
+       44
+      ]
+     },
+     {
+      "i": 17,
+      "rule": 1,
+      "cell": 55,
+      "verdict": "safe",
+      "basis": [
+       44
+      ]
+     },
+     {
+      "i": 18,
+      "rule": 1,
+      "cell": 7,
+      "verdict": "trap",
+      "basis": [
+       6
+      ]
+     },
+     {
+      "i": 19,
+      "rule": 1,
+      "cell": 8,
+      "verdict": "trap",
+      "basis": [
+       7
+      ]
+     },
+     {
+      "i": 20,
+      "rule": 1,
+      "cell": 20,
+      "verdict": "trap",
+      "basis": [
+       30
+      ]
+     },
+     {
+      "i": 21,
+      "rule": 1,
+      "cell": 9,
+      "verdict": "safe",
+      "basis": [
+       8
+      ]
+     },
+     {
+      "i": 22,
+      "rule": 1,
+      "cell": 10,
+      "verdict": "safe",
+      "basis": [
+       9
+      ]
+     },
+     {
+      "i": 23,
+      "rule": 1,
+      "cell": 21,
+      "verdict": "safe",
+      "basis": [
+       9
+      ]
+     }
+    ],
+    "route": [
+     [
+      "m",
+      1
+     ],
+     [
+      "m",
+      12
+     ],
+     [
+      "m",
+      23
+     ],
+     [
+      "d",
+      34
+     ],
+     [
+      "m",
+      34
+     ],
+     [
+      "m",
+      35
+     ],
+     [
+      "m",
+      36
+     ],
+     [
+      "m",
+      37
+     ],
+     [
+      "m",
+      38
+     ],
+     [
+      "m",
+      39
+     ],
+     [
+      "m",
+      40
+     ],
+     [
+      "m",
+      41
+     ],
+     [
+      "m",
+      52
+     ],
+     [
+      "m",
+      63
+     ],
+     [
+      "m",
+      62
+     ],
+     [
+      "m",
+      73
+     ],
+     [
+      "m",
+      84
+     ],
+     [
+      "m",
+      95
+     ],
+     [
+      "m",
+      94
+     ],
+     [
+      "m",
+      105
+     ],
+     [
+      "m",
+      104
+     ],
+     [
+      "m",
+      115
+     ],
+     [
+      "m",
+      104
+     ],
+     [
+      "m",
+      103
+     ],
+     [
+      "m",
+      102
+     ],
+     [
+      "m",
+      91
+     ],
+     [
+      "m",
+      90
+     ],
+     [
+      "m",
+      91
+     ],
+     [
+      "m",
+      92
+     ],
+     [
+      "m",
+      103
+     ],
+     [
+      "m",
+      104
+     ],
+     [
+      "m",
+      105
+     ],
+     [
+      "m",
+      106
+     ],
+     [
+      "m",
+      107
+     ],
+     [
+      "m",
+      118
+     ],
+     [
+      "m",
+      119
+     ],
+     [
+      "m",
+      120
+     ]
+    ]
+   },
+   "sha256": "e325e699962d3deb06012b64f4e23267bc769c1d9a0cc1e8568fb0b2aea5f519"
+  }
+ ]
+}
